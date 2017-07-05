@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Revalia|Rubik|Spectral');
+
+html {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: #f6f8f9; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #f6f8f9 0%,
+    #e5ebee 50%,
+    #d7dee3 51%,
+    #f5f7f9 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #f6f8f9 0%,
+    #e5ebee 50%,
+    #d7dee3 51%,
+    #f5f7f9 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f6f8f9 0%,
+    #e5ebee 50%,
+    #d7dee3 51%,
+    #f5f7f9 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+body > h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Spectral', serif;
+}
+
+input[type=search] {
+  display: block;
+  margin: 10px auto;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://www.w3schools.com/howto/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.randomArticle {
+  display: block;
+  text-align: center;
+  font-family: 'Revalia', cursive;
+  margin: 20px;
+}
+
+#results {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.article {
+  margin: 10px;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.article:hover {
+  background-color: rgba(195, 195, 195, 0.4);
+}
+
+.article p {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
